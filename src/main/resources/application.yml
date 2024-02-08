@@ -5,7 +5,7 @@ spring:
   application:
     name: catalog-service
   datasource:
-    url: jdbc:h2:tcp://localhost/~/study01 #최초 웹콘솔에서 jdbc url:jdbc:h2:~/study01 한 번 수행하고 로그아웃 후 왼쪽 url 입력 후 시작
+    url: jdbc:h2:tcp://localhost/~/catalogdb #최초 웹콘솔에서 jdbc url:jdbc:h2:~/catalogdb 한 번 수행하고 로그아웃 후 왼쪽 url 입력 후 시작
     username: sa
     password:
     driver-class-name: org.h2.Driver
